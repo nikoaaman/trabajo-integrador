@@ -15,14 +15,14 @@
         </div>
         <nav class="navbar">
             <ul class="links">
-                <li><a href="hero">Home</a></li>
-                <li><a href="products-container">Productos</a></li>
-                <li><a href="form">Contacto</a></li>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#products">Productos</a></li>
+                <li><a href="#form">Contacto</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <div class="hero">
+        <div class="hero" id="hero">
             <div class="mario-img">
                 <img src="./images/Mario cappie.jpg" alt="Mario con Cappy" class="cappy">
             </div>
@@ -32,24 +32,24 @@
             </div>
         </div>
         <div class="products-container" id="products"></div>
-        <form class="form">
+        <form class="form" id="form">
             <div class="inputContainer">
-                <label for="nombre">Ingrese su nombre</label>
-                <input type="text" name="nombreCompleto" placeholder="Juan Perez" id="nombre">
+                <label for="nombre">Ingrese su nombre</label><br>
+                <input type="text" name="nombreCompleto" placeholder="Mario Mario" id="nombre">
             </div>
             <div class="inputContainer">
-                <label for="email">Ingrese su correo electronico</label>
-                <input type="email" name="correoElectronico" placeholder="juan-perez@gmail.com" id="email">
+                <label for="email">Ingrese su correo electronico</label><br>
+                <input type="email" name="correoElectronico" placeholder="mario-mario@mushroom-kingdom.com" id="email">
             </div>
             <div class="inputContainer">
-                <label for="contrasena">Ingrese su contraseña</label>
-                <input type="password" name="contrasena" placeholder="********" id="contrasena">
+                <label for="mensaje">Ingrese su consulta</label><br>
+                <input type="textarea" name="mensaje" placeholder="Envianos tu mensaje" id="mensaje">
             </div>
-            <input type="submit" value="registrar" class="register-btn">
+            <input type="submit" value="Enviar" class="enviar-btn" id="enviar">
         </form>
     </main>
     <footer class="footer">
-        <p>Copyright</p>
+        <p>Copyright Nicolás para Argentina Programa 4.0 <br> Por favor, no demandar</p>
     </footer>
     <script src="./script.js"></script>
 </body>

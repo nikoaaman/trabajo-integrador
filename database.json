@@ -1,42 +1,42 @@
 [
     {
-        "name": "prod 1",
-        "price": 100,
-        "color": "rojo"
+        "name": "Gorra Mario",
+        "price": 650,
+        "imagen": "./images/productos/gorra mario.jpg"
     },
     {
-        "name": "prod 2",
-        "price": 100,
-        "color": "rojo"
+        "name": "Gorra Luigi",
+        "price": 650,
+        "imagen": "./images/productos/gorra luigi.jpg"
     },
     {
-        "name": "prod 3",
-        "price": 100,
-        "color": "rojo"
+        "name": "Peluche Mario",
+        "price": 700,
+        "imagen": "./images/productos/peluche mario.jpg"
     },
     {
-        "name": "prod 4",
-        "price": 100,
-        "color": "rojo"
+        "name": "Peluche Luigi",
+        "price": 700,
+        "imagen": "./images/productos/peluche luigi.jpg"
     },
     {
-        "name": "prod 5",
-        "price": 100,
-        "color": "rojo"
+        "name": "Peluche Yoshi",
+        "price": 700,
+        "imagen": "./images/productos/peluche yoshi.jpg"
     },
     {
-        "name": "prod 6",
-        "price": 100,
-        "color": "rojo"
+        "name": "Mario Kart",
+        "price": 1200,
+        "imagen": "./images/productos/mario kart.jpg"
     },
     {
-        "name": "prod 7",
-        "price": 100,
-        "color": "rojo"
+        "name": "Luigi Kart",
+        "price": 1200,
+        "imagen": "./images/productos/luigi kart.jpg"
     },
     {
-        "name": "prod 8",
-        "price": 100,
-        "color": "rojo"
+        "name": "Yoshi Kart",
+        "price": 1200,
+        "imagen": "./images/productos/yoshi kart.jpg"
     }
 ]

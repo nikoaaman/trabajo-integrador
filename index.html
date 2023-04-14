@@ -15,9 +15,10 @@
         </div>
         <nav class="navbar">
             <ul class="links">
-                <li><a href="#hero">Home</a></li>
-                <li><a href="#products">Productos</a></li>
-                <li><a href="#form">Contacto</a></li>
+                <li class="home-normal"><a href="#welcome">Home</a></li>
+                <li class="home-responsive"><a href="#welcome">M</a></li>
+                <li><a href="#tienda">Productos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
             </ul>
         </nav>
     </header>
@@ -26,27 +27,84 @@
             <div class="mario-img">
                 <img src="./images/Mario cappie.jpg" alt="Mario con Cappy" class="cappy">
             </div>
-            <div class="welcome">
+            <div class="welcome" id="welcome">
             <h1>It's-A Me, Mario!</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur magnam iste culpa maxime voluptatum dicta, est nemo tempora numquam, libero modi eos? Consequuntur autem tempore adipisci quis. Id asperiores suscipit quidem in laborum sed adipisci tenetur quasi veritatis, dolorum eligendi! Inventore omnis similique pariatur eaque nesciunt obcaecati natus corrupti debitis?</p>
+            <p>En 1981 vio la luz el videojuego "Donkey Kong", de la mano 
+            de Shigeru Miyamoto. Ahí apareció por primera vez un 
+            personaje conocido entonces como "Jumpman". En 1983, para el 
+            juego Mario Bros., fue rebautizado con el nombre  de Mario.
+            Desde entonces, este querido personaje ha aparecido en más de 
+            200 juegos. Y después de más de 40 años desde su creación, 
+            llega nuevamente a la pantalla grande con una adaptación 
+            animada para el deleite de grandes y chicos. <br> Preparate 
+            para la ocasión, únite a esta fiesta y disfrutá con nosotros
+            y con nuestro personaje favorito. <br>
+            <strong>Mario Store es la tienda para los amantes de esta 
+            gran franquicia que nos ha acompañado toda la vida
+            </strong>
+            </p>
+            </div>
+            <div class="games">
+                <div class="juego">
+                    <h2>Donkey Kong Arcade</h2>
+                    <img src="./images/juegos/mario dk.png" alt="sprite mario dk">
+                    <p>1981</p>
+                </div>
+                <div class="juego">
+                    <h2>Super Mario Bros 1</h2>
+                    <img src="./images/juegos/mario mario 1.png" alt="sprite mario 1">
+                    <p>1985</p>
+                </div>
+                <div class="juego">
+                    <h2>Super Mario Bros 2</h2>
+                    <img src="./images/juegos/mario mario 2.png" alt="sprite mario 2">
+                    <p>1988</p>
+                </div>
+                <div class="juego">
+                    <h2>Super Mario Bros 3</h2>
+                    <img src="./images/juegos/mario mario 3.jpg" alt="sprite mario 3">
+                    <p>1990</p>
+                </div>
+                <div class="juego">
+                    <h2>Super Mario World</h2>
+                    <img src="./images/juegos/Mario cape.png" alt="sprite mario world">
+                    <p>1991</p>
+                </div>
+                <div class="juego">
+                    <h2>Super Mario 64 (N64)</h2>
+                    <img src="./images/juegos/mario 64.jpg" alt="modelo mario 64">
+                    <p>1996</p>
+                </div>
             </div>
         </div>
+        <div class="titulos">
+            <h2 class="seccion" id="tienda">Nuestros Productos</h3>
+        </div>
         <div class="products-container" id="products"></div>
-        <form class="form" id="form">
-            <div class="inputContainer">
-                <label for="nombre">Ingrese su nombre</label><br>
-                <input type="text" name="nombreCompleto" placeholder="Mario Mario" id="nombre">
+        <div class="titulos">
+            <h2 class="seccion">Contactános</h3>
+        </div>
+        <section class="contacto" id="contacto">
+            <form class="form" id="form">
+                <div class="inputContainer">
+                    <label for="nombre">Ingrese su nombre</label><br>
+                    <input type="text" name="nombreCompleto" placeholder="Mario Mario" id="nombre">
+                </div>
+                <div class="inputContainer">
+                    <label for="email">Ingrese su correo electronico</label><br>
+                    <input type="email" name="correoElectronico" placeholder="mario_mario@mushroom-kingdom.com" id="email">
+                </div>
+                <div class="inputContainer">
+                    <label for="mensaje">Ingrese su consulta</label><br>
+                    <textarea name="mensaje" placeholder="Envianos tu mensaje" id="mensaje"></textarea>
+                </div>
+                <input type="submit" value="Enviar" class="enviar-btn" id="enviar">
+            </form>
+            <div class="pipe">
+                <img src="./images/pipe.png" alt="cañeria mario bros">
+                <div id="thanks-container"></div>
             </div>
-            <div class="inputContainer">
-                <label for="email">Ingrese su correo electronico</label><br>
-                <input type="email" name="correoElectronico" placeholder="mario-mario@mushroom-kingdom.com" id="email">
-            </div>
-            <div class="inputContainer">
-                <label for="mensaje">Ingrese su consulta</label><br>
-                <input type="textarea" name="mensaje" placeholder="Envianos tu mensaje" id="mensaje">
-            </div>
-            <input type="submit" value="Enviar" class="enviar-btn" id="enviar">
-        </form>
+        </section>
     </main>
     <footer class="footer">
         <p>Copyright Nicolás para Argentina Programa 4.0 <br> Por favor, no demandar</p>

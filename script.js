@@ -14,10 +14,14 @@ fetch("./database.json")
         }
     })
 const formulario = document.getElementById("form")
+const thanks = document.getElementById("thanks-container")
 formulario.addEventListener("submit", (e)=>{
     e.preventDefault()
     console.log(formulario.nombre.value)
     console.log(formulario.email.value)
     console.log(formulario.mensaje.value)
     formulario.reset()
+    thanks.innerHTML=""
+    thanks.innerHTML+=`
+    <p>Gracias por tu mensaje. <br> Nos comunicaremos a la brevedad</p>`
 })

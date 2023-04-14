@@ -38,5 +38,45 @@
         "name": "Yoshi Kart",
         "price": 1200,
         "imagen": "./images/productos/yoshi kart.jpg"
+    },
+    {
+        "name": "Mochila Mario",
+        "price": 1000,
+        "imagen": "./images/productos/mochila mario.jpg"
+    },
+    {
+        "name": "Mochila Luigi",
+        "price": 1000,
+        "imagen": "./images/productos/mochila luigi.jpg"
+    },
+    {
+        "name": "Llavero Mario",
+        "price": 250,
+        "imagen": "./images/productos/llavero mario.jpg"
+    },
+    {
+        "name": "Llavero Luigi",
+        "price": 250,
+        "imagen": "./images/productos/llavero luigi.jpg"
+    },
+    {
+        "name": "Super Mushroom",
+        "price": 500,
+        "imagen": "./images/productos/mushroom.jpg"
+    },
+    {
+        "name": "1-up Mushroom",
+        "price": 500,
+        "imagen": "./images/productos/1up mushroom.jpg"
+    },
+    {
+        "name": "Figura Mario",
+        "price": 800,
+        "imagen": "./images/productos/figura mario.jpg"
+    },
+    {
+        "name": "Figura Luigi",
+        "price": 800,
+        "imagen": "./images/productos/figura luigi.jpg"
     }
 ]
